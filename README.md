@@ -10,3 +10,4 @@ fig collections
  * Selenium Hub
  * Selenium Node Chrome
  * Selenium Node Firefox
+
