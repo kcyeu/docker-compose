@@ -5,9 +5,14 @@ fig collections
 
 ## Selenium
 
-### Launch the containers below, and open 4444 port
+### Launches full function Selehium Grid2 and openes 4444 port, containers include:
 
  * Selenium Hub
  * Selenium Node Chrome
  * Selenium Node Firefox
 
+To scale-up Selenium Nodes:
+
+```
+sudo fig scale firefox=<NUM> chrome=<NUM>
+```
