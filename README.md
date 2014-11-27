@@ -1,15 +1,14 @@
-fig
-===
+# fig
 
 fig collections
 
 ## Jenkins
-### Launches Jenkins
+Launches Jenkins
  - Default port 8080 is opened and mapped
  - Volume for data persistence ```/var/docker-data1/jenkins:/var/docker-data1/jenkins```
 
 ## Selenium
-### Launches full function Selehium Grid2 and openes 4444 port, containers include:
+Launches full function Selehium Grid2 and openes 4444 port, containers include:
 
  * Selenium Hub
  * Selenium Node Chrome

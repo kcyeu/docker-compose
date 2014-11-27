@@ -1,4 +1,4 @@
-jenkins:
+master:
   image: kcyeu/jenkins
   ports:
     - "8080:8080"
