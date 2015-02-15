@@ -1,7 +1,0 @@
-master:
-  image: kcyeu/jenkins
-  ports:
-    - "8080:8080"
-  volumes:
-    - /var/docker-data1/jenkins:/var/docker-data1/jenkins
-

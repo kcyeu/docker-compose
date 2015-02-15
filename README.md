@@ -1,6 +1,6 @@
-# fig
+# docker-compose (formerly fig)
 
-fig collections
+Docker compose (fig) collections
 
 ## Jenkins
 
@@ -20,5 +20,13 @@ Launches full function Selehium Grid2 and openes 4444 port, containers include:
 To scale-up Selenium Nodes:
 
 ```
-sudo fig scale firefox=<NUM> chrome=<NUM>
+sudo docker-compose scale firefox=<NUM> chrome=<NUM>
 ```
+
+## Redis Workbench
+
+Launches redis-sever and linked web interface, containers include:
+
+ * Redis
+ * Redis Workbench
+
