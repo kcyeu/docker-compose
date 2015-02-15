@@ -1,0 +1,10 @@
+redis:
+  image: redis
+
+workbench:
+  image: kcyeu/redis-workbench
+  links:
+    - redis:redis
+  ports:
+    - "80:80"
+
