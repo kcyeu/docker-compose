@@ -2,6 +2,9 @@
 
 Docker compose (fig) collections
 
+![docker](https://i.imgur.com/6P3fmlD.png =520x)
+
+
 ## Jenkins
 
 Launches Jenkins
