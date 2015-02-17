@@ -5,6 +5,7 @@ workbench:
   image: kcyeu/redis-workbench
   links:
     - redis:redis
-  ports:
-    - "80:80"
-
+#  ports:
+#    - "80:80"
+  environment:
+    - VIRTUAL_HOST=rw.mikuru.tw

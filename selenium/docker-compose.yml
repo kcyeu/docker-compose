@@ -9,7 +9,8 @@ chrome:
     - hub:hub
 
 firefox:
-  image: selenium/node-firefox
+  image: selenium/node-firefox-debug
   links:
     - hub:hub
-
+  ports:
+    - "5900:5900"
