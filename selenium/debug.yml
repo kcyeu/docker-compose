@@ -1,0 +1,18 @@
+hub:
+  image: selenium/hub:latest
+  ports:
+    - "4444:4444"
+
+chrome:
+  image: selenium/node-chrome-debug:latest
+  links:
+    - hub:hub
+  ports:
+    - "5900"
+
+firefox:
+  image: selenium/node-firefox-debug:latest
+  links:
+    - hub:hub
+  ports:
+    - "5900"
