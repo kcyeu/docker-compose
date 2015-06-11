@@ -12,6 +12,7 @@ start)
     ;;
 stop)
     docker-compose stop
+    docker-compose rm -f app
     ;;
 upgrade)
     docker-compose stop app
