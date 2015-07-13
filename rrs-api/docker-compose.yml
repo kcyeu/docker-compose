@@ -1,0 +1,17 @@
+src:
+    image: uitox-rrs-api
+
+php:
+    image: kcyeu/php-fpm
+    volumes_from:
+        - src
+
+nginx:
+    image: nginx
+    ports:
+        - "80:80"
+    links:
+        - "php:php"
+    volumes_from:
+        - src
+
