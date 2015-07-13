@@ -4,5 +4,6 @@ master:
     - "8080:8080"
   volumes:
     - /var/docker-data1/jenkins:/var/docker-data1/jenkins
+    - /var/run/docker.sock:/var/run/docker.sock
     - /usr/bin/docker:/usr/bin/docker
 
