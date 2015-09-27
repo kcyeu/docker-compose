@@ -1,0 +1,13 @@
+data:
+    image: gitlab_data
+    command: /bin/true
+app:
+    image: gitlab_app:stage
+    ports:
+        - "4080:80"
+#        - "4443:443"
+        - "2222:22"
+    volumes_from:
+        - data
+    environment:
+        - VIRTUAL_HOST=gitlab.mikuru.tw
